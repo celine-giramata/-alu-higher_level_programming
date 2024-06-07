@@ -12,4 +12,4 @@ fs.writeFile(filePath, data, (err) => {
   } else {
     fs.readFileSync(filePath, 'utf8');
   }
-});i
+});
