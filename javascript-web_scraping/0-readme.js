@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 t fs = require('fs');
 
 function readFile (filePath) {
