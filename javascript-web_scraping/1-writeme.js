@@ -1,3 +1,4 @@
+#!/usr/bin/node
 t fs = require('fs');
 
 function writeFile (filePath, content) {
@@ -14,4 +15,4 @@ if (process.argv.length > 3) {
   writeFile(filePath, content);
 } else {
   console.log('provide the file path and content as arguments.');
-}i
+}ii
